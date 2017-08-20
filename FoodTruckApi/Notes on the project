@@ -1,0 +1,25 @@
+We use babel in order to be able to use ES6 type 
+of Java script (it translate ES6 to ES5). So we need two folder inside the project folder
+one called dist (for distribution) where the
+converted JS goes and one called src where the js to be converted 
+goes. 
+This will be reflected in the package.json file
+
+We install two different dependencies:
+- regular that we install with --save flag
+- dev that we install with --save-dev flag
+
+We installed eslint in order for it to check that the file is correct
+
+we define the scripts in npm to build and run the applications
+
+
+
+the Following packages are needed for authentication 
+
+npm install --save express-jwt # json wet token
+                    jsonwebtocken passport 
+                   passport-local passport-local-mongoose
+
+We first register then we login and once you loging it send back a jason wet tocken
+and use this token to authorize the api calls
